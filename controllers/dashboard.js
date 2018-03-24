@@ -16,14 +16,14 @@ const dashboard = {
   index : async (request, response) => {
     logger.info('dashboard rendering'); 
     var viewData = {
-      title: 'Challenge list Dashboard',
+      title: 'Challenge List Dashboard',
       challenges: await Challenge.find()
     };
     logger.info('about to render', viewData);
     response.render('dashboard', viewData);
   },
   export : async (request, response) => {
-    logger.info('dashboard rendering'); 
+    logger.info('export rendering'); 
     var viewData = {
       challenges: await Challenge.find()
     };

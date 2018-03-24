@@ -36,10 +36,7 @@ const challengelist = {
       challenge.work.id(workId).remove();
       challenge.save().then(async () => {
             response.status(200);
-            // response.redirect('/dashboard');
             response.redirect('/challenge/' + challengeId);
-            // const people = await Person.find().populate('country');
-            // res.json(people.map(item => item.toObject()));
           })
         } 
     else {
@@ -47,7 +44,6 @@ const challengelist = {
             response.send("An error occurred");
     }
     
-    // playlistStore.removeSong(playlistId, songId);
     response.redirect('/challenge/' + challengeId);
 
   },
@@ -66,7 +62,6 @@ const challengelist = {
       else
         newWork.code = request.body.code
         
-      // link: request.body.link,
       
     if(!challenge.work)
       challenge.work=[];
@@ -77,23 +72,16 @@ const challengelist = {
        
         challenge.save().then(async () => {
             response.status(200);
-            // response.redirect('/dashboard');
             response.redirect('/challenge/' + challengeId);
-            // const people = await Person.find().populate('country');
-            // res.json(people.map(item => item.toObject()));
           })
         } else {
           response.status(400);
           response.send("An error occurred");
-    }
-   
-    // playlistStore.addSong(playlistId, newSong);
+    } 
     response.redirect('/challenge/' + challengeId);
     
-  },
-  
+  }, 
 
 };
-
 
 module.exports = challengelist;
