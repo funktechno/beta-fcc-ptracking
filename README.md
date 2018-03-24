@@ -1,7 +1,8 @@
 Welcome to the Beta freecodecamp Progress Tracker
 ==============================
 
-[glitch project](https://glitch.com/edit/#!/beta-fcc-ptracking)
+<a href="hhttps://glitch.com/edit/#!/beta-fcc-ptracking" target="_blank">glitch project</a>
+
 
 ### Setup:
 
