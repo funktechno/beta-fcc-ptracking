@@ -16,9 +16,9 @@ A starter project for learning Gomix
     DB_NAME=
    ```
 
-based on: https://glitch.com/edit/#!/playlistweek7
-liked this project: https://hyperdev.com/#!/project/maze-stealer
-based mongo iterations from: https://nettle-beast-mongoose.glitch.me/
+* based on: https://glitch.com/edit/#!/playlistweek7
+* liked this project: https://hyperdev.com/#!/project/maze-stealer
+* based mongo iterations from: https://nettle-beast-mongoose.glitch.me/
 
 ### Notes:
 
