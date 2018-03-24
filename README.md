@@ -1,7 +1,7 @@
-Welcome to the Gomix Template 1
+Welcome to the Beta freecodecamp Progress Tracker
 ==============================
 
-A starter project for learning Gomix
+[glitch project](https://glitch.com/edit/#!/beta-fcc-ptracking)
 
 ### Setup:
 

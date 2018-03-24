@@ -15,9 +15,10 @@ const challengelist = {
   index: async (request, response) => {
     const challengeId = request.params.id;
     logger.debug('challengeId id = ', challengeId);
+    var challenge = await Challenge.findById(challengeId);
     const viewData = {
-      title: 'Challenge',
-      challenge: await Challenge.findById(challengeId),
+      title: challenge.title,
+      challenge
     };
     
     response.render('worklist', viewData);

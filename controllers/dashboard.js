@@ -16,7 +16,7 @@ const dashboard = {
   index : async (request, response) => {
     logger.info('dashboard rendering'); 
     var viewData = {
-      title: 'Challengelist Dashboard',
+      title: 'Challenge list Dashboard',
       challenges: await Challenge.find()
     };
     logger.info('about to render', viewData);
