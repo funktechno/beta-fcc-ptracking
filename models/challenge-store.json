@@ -1,0 +1,20 @@
+[
+    {
+        "genre": "Responsive Web Design",
+        "title": "Fill in the Blank with Placeholder Text",
+        "section": "basic-html-and-html5",
+        "work": [
+            {
+                "title": "github",
+                "link": "https://google.com",
+                "_id": "5ab6a26d913cd02b1f08cff3"
+            },
+            {
+                "title": "project code",
+                "code": "\r\n<h1>Hello World</h1>\r\n\r\n<h2>CatPhotoApp</h2>\r\n\r\n<p>Hello Paragraph</p>\r\n",
+                "_id": "5ab6b0ca9b22f7004f5156c2"
+            }
+        ],
+        "id": "5ab6a059d1f58f2576612d43"
+    }
+]

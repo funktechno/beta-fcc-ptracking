@@ -1,0 +1,113 @@
+{
+  "playlistCollection": [
+    {
+      "id": "01",
+      "title": "Beethoven Sonatas",
+      "duration": 35,
+      "songs": [
+        {
+          "id": "01",
+          "title": "Piano Sonata No. 3",
+          "artist": "Beethoven",
+          "genre": "Classical",
+          "duration": 5
+        },
+        {
+          "id": "05",
+          "title": "Piano Sonata No. 7",
+          "artist": "Beethoven",
+          "genre": "Classical",
+          "duration": 6
+        },
+        {
+          "id": "06",
+          "title": "Piano Sonata No. 10",
+          "artist": "Beethoven",
+          "genre": "Classical",
+          "duration": 4
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Beethoven Concertos",
+      "duration": 23,
+      "songs": [
+        {
+          "id": "01",
+          "title": "Piano Concerto No. 0",
+          "artist": "Beethoven",
+          "genre": "Classical",
+          "duration": 8
+        },
+        {
+          "id": "08",
+          "title": "Piano Concerto No. 4",
+          "artist": "Beethoven",
+          "genre": "Classical",
+          "duration": 3
+        },
+        {
+          "id": "09",
+          "title": "Piano Concerto No. 6",
+          "artist": "Beethoven",
+          "genre": "Classical",
+          "duration": 4
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Beethoven Variations",
+      "duration": 67,
+      "songs": [
+        {
+          "id": "10",
+          "title": "Opus 34: Six variations on a theme in F major",
+          "artist": "Beethoven",
+          "genre": "Classical",
+          "duration": 11
+        },
+        {
+          "id": "11",
+          "title": "Opus 120: Thirty-three variations on a waltz by Diabelli in C majo",
+          "artist": "Beethoven",
+          "genre": "Classical",
+          "duration": 45
+        }
+      ]
+    },
+    {
+      "id": "2d9bbc44-bb9a-42cb-9b0f-2698ea9d4a82",
+      "title": "Beethoven New",
+      "songs": [
+        {
+          "id": "e16b718e-78a5-4d2c-a66f-567f77b4e528",
+          "title": "New 1",
+          "artist": "Beethoven"
+        },
+        {
+          "id": "f08026e0-3e42-4f96-a160-12ea479a484d",
+          "title": "New 3",
+          "artist": "Beethoven"
+        }
+      ]
+    },
+    {
+      "id": "b9d5ab54-32a2-4779-a769-594a8e023aa7",
+      "title": "basic html",
+      "songs": [
+        {
+          "id": "5c8ab4a5-64de-4665-bd87-6314919b05f9",
+          "title": "asdf",
+          "artist": "asdf"
+        }
+      ]
+    },
+    {
+      "id": "98d486da-e083-4d66-8b02-e33aeeb643ca",
+      "title": "anopther test",
+      "songs": []
+    }
+  ]
+}

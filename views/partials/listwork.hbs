@@ -1,0 +1,67 @@
+<table class="ui table">
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Link</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each challenge.work}}
+      <tr>
+        <td>
+          {{title}}
+        </td>
+        <td>
+          {{#if link}}
+          <a href="{{link}}" target="_blank" class="ui icon button">
+              <i class="icon folder open"></i>
+          </a>
+          {{/if}}
+          {{#if code}}
+
+          <a href="#work_code_modal" class="ui icon button" data-toggle="modal" data-work-code="{{code}}" >
+            <i class="code icon"></i>
+          </a>
+
+          {{/if}}
+        </td>
+        <td>
+          <a href="/challenge/{{../challenge.id}}/deletework/{{id}}" class="ui icon button">
+  <i class="icon trash"></i>
+</a>
+        </td>
+      
+      </tr>
+    
+    {{/each}}
+  </tbody>
+</table>
+
+<!-- modal -->
+<div class="modal" id="work_code_modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+          <h4 class="modal-title">Work Code:</h4>
+      </div>
+      <div class="modal-body">
+        <br/>
+        <pre class="prettyprint" id="codeId"></pre>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  
+$('#work_code_modal').on('show.bs.modal', function(e) {
+    var code_content = $(e.relatedTarget).data('work-code');
+    $( "#codeId" ).text(code_content.toString());
+    // $(e.currentTarget).find('p[name="codeId"]').val(code_content.toString());
+    // $(e.currentTarget).find('input[name="inputCodeId"]').val(code_content.toString());
+});
+</script>

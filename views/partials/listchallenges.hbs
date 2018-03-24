@@ -1,0 +1,24 @@
+<section class="ui stacked segment">
+    <h2 class="ui header">
+      Export Challenge Progress:
+    </h2>
+    <!--   remove the download tag if you'd prefer to just open another tab -->
+       <a href="/challenge_export" class="ui icon button" target="_blank" >
+        Export
+      </a>
+</section>
+{{#each challenges}}
+  <section class="ui stacked segment">
+    <h2 class="ui header">
+      {{title}}
+    </h2>
+    <p> Genre: {{genre}} </p>
+    <p> Section: {{section}} </p>
+    <a href="/challenge/{{id}}" class="ui icon button">
+      <i class="icon folder open"></i>
+    </a>
+    <a href="/dashboard/deletechallenge/{{id}}" class="ui icon button">
+      <i class="icon trash"></i>
+    </a>
+  </section>
+{{/each}}
