@@ -1,16 +1,13 @@
 Welcome to the Beta freecodecamp Progress Tracker
 ==============================
 
-<a href="https://glitch.com/edit/#!/beta-fcc-ptracking" target="_blank">glitch project</a>
-<a href="https://glitch.com/edit/#!/beta-fcc-ptracking" onclick="return ! window.open(this.href);">Open in a new window</a>
-
-
+[https://glitch.com/edit/#!/beta-fcc-ptracking](glitch project)
 
 ### Setup:
 
  * .env 
    * SECRET=masterpw
-   * USER="masteruser
+   * USER=masteruser
    * Launch a sandbox mongodb using [mlab](https://mlab.com/home). Just MongoDB create a new Deployment and add a new user to the deployment. You get .5 gb which should be plenty if only tracking your own usage
    ```
     DB_USER=
