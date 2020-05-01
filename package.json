@@ -4,7 +4,9 @@
   "description": "Starter project for learning gomix",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "body-parser": "^1.18.2",
@@ -14,9 +16,10 @@
     "lowdb": "^0.14.0",
     "uuid": "^3.0.1",
     "winston": "^2.3.0",
-    "http-auth":"^3.2.3",
+    "http-auth": "^3.2.3",
     "shortid": "^2.2.8",
-    "mongoose": "^4.13.1"
+    "mongoose": "^4.13.1",
+    "snyk": "^1.316.1"
   },
   "engines": {
     "node": "8.x"
@@ -28,5 +31,6 @@
     "node",
     "gomix",
     "express"
-  ]
+  ],
+  "snyk": true
 }
